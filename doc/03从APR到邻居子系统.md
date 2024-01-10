@@ -71,3 +71,4 @@
 + rfc2861，*最新版的更新一点*
 + csdn，qq_53111905，爱好学习的青年人，linux内核邻接子系统（arp协议）的工作原理
 + csdn.net，weiqian1991，网络协议栈的源码部析
++ cnblogs.com/FengXiangZhe008/p/17335120.html，IPv6/ICMPv6原理介绍+报文分析+配置示例，*跟文档好像对不上*
