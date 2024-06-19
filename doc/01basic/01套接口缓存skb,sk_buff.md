@@ -55,3 +55,12 @@
 #### 2.5.2 设计 skb_shared_info 数据结构的目的
 
 #### 2.5.3 操作 skb_shared_info 的函数
+
+## 三、最后
+
+### 总结
+
+### ref
+
++ 1、Linux内核源码剖析-tcpip实现(上)，chap3套接口缓存（sk_buff）
++ 2、嵌入式Linux网络体系结构设计与TCPIP协议栈，chap2 Socket Buffer
