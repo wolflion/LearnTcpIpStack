@@ -197,3 +197,7 @@ EXPORT_SYMBOL(inet_dgram_ops);
 > 当需要对 UDP 套接字进行轮询时，内核会调用 `udp_poll()` 函数，然后通过 `sock->ops->poll` 调用 `inet_dgram_ops` 中的 `poll` 函数，实现对应的轮询事件处理。
 >
 > 综上所述，通过 `sock->ops` 中的函数指针，特别是 `poll` 函数指针，UDP 套接字能够与 epoll 相关联，实现对套接字的轮询事件处理。
+
+
+
+af_inet.c中的`init()`里也调用了udp_init()
