@@ -1,0 +1,7 @@
+https://elixir.bootlin.com/linux/latest/source/net/ipv4/ip_output.c#L1667
+
+#if defined(CONFIG_IP_MULTICAST)
+	igmp_mc_init();
+#endif
+配置了这个宏后，会调用igmp_mc_init()，不属于主线
+
